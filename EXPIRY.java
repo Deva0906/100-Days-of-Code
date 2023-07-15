@@ -6,20 +6,19 @@ class Day6
 	{
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
-
 		while(t-->0)
-{
-         int N=sc.nextInt();
-		    int M=sc.nextInt();
-		    int K=sc.nextInt();
-if(N<=M*K)
-{
-System.out.println("Yes");
-}
-else
-{
-System.out.println("No");
-}
+		{
+			int N=sc.nextInt();
+			int M=sc.nextInt();
+			int K=sc.nextInt();
+			if(N<=M*K)
+			{
+				System.out.println("Yes");
+			}
+			else
+			{
+				System.out.println("No");
+			}
 		}
 	}
 }
